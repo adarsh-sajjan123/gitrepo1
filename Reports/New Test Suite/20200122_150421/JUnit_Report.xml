@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="79" tests="3" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="3" failures="1" errors="0" time="79" timestamp="2020-01-22 15:04:25" hostname="slk - WSLKCMP4FT2-19.SLKSOFT.COM" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Automation Scripts\\Training_Day1_web\\Reports\\New Test Suite\\20200122_150421"/>
+         <property name="logFiles" value="C:\\Automation Scripts\\Training_Day1_web\\Reports\\New Test Suite\\20200122_150421\\execution0.log"/>
+         <property name="attachments" value="C:\\Automation Scripts\\Training_Day1_web\\Reports\\New Test Suite\\20200122_150421\\1579685732804.png"/>
+         <property name="hostName" value="slk - WSLKCMP4FT2-19.SLKSOFT.COM"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="10.60.24.126"/>
+         <property name="sessionId" value="2193dfcae113e9e786fa5cb1ea75fd86"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Day1/2020_01_20_OrHM_Manual" classname="Test Cases/Day1/2020_01_20_OrHM_Manual" status="PASSED">
+         <system-out><![CDATA[2020-01-22 15:04:26 - [TEST_CASE][PASSED] - Test Cases/Day1/2020_01_20_OrHM_Manual: Test Cases/Day1/2020_01_20_OrHM_Manual
+
+2020-01-22 15:04:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-22 15:04:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-22 15:04:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-22 15:04:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-22 15:04:33 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"): Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' successfully
+
+2020-01-22 15:04:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' successfully
+
+2020-01-22 15:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2020-01-22 15:04:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2020-01-22 15:04:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2020-01-22 15:04:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2020-01-22 15:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit", ["variable":""Login""])): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-01-22 15:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day1/2020_01_20_TestCases1" classname="Test Cases/Day1/2020_01_20_TestCases1" status="PASSED">
+         <system-out><![CDATA[2020-01-22 15:04:39 - [TEST_CASE][PASSED] - Test Cases/Day1/2020_01_20_TestCases1: Test Cases/Day1/2020_01_20_TestCases1
+
+2020-01-22 15:04:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-22 15:04:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-22 15:04:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-22 15:04:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-22 15:04:44 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2020-01-22 15:04:47 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2020-01-22 15:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-22 15:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-22 15:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-22 15:04:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-22 15:04:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-22 15:04:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-22 15:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_8")): Object: 'Object Repository/Page_CURA Healthcare Service/td_8' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_8' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Testing"): Text 'Testing' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/Page_CURA Healthcare Service/td_31' is clicked on
+
+2020-01-22 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_31' is clicked on
+
+2020-01-22 15:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2020-01-22 15:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2020-01-22 15:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2020-01-22 15:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day1/2020_01_20_TestCases2" classname="Test Cases/Day1/2020_01_20_TestCases2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Day1/2020_01_20_TestCases2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-01-22 15:04:50 - [TEST_CASE][FAILED] - Test Cases/Day1/2020_01_20_TestCases2: Test Cases/Day1/2020_01_20_TestCases2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more
+
+
+2020-01-22 15:04:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-22 15:04:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-22 15:04:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-22 15:04:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-22 15:04:56 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2020-01-22 15:04:59 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2020-01-22 15:04:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-22 15:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-22 15:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-22 15:05:00 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-22 15:05:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-22 15:05:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-22 15:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-22 15:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-22 15:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2020-01-22 15:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2020-01-22 15:05:01 - [TEST_STEP][FAILED] - click(findTestObject("Page_CURA Healthcare Service/th_")): Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more
+)
+
+2020-01-22 15:05:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-22 15:05:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Automation Scripts\\Training_Day1_web\\Reports\\New Test Suite\\20200122_150421\\1579685732804.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-22 15:04:50 - [TEST_CASE][FAILED] - Test Cases/Day1/2020_01_20_TestCases2: Test Cases/Day1/2020_01_20_TestCases2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day1/Script Mode" classname="Test Cases/Day1/Script Mode" status="PASSED">
+         <system-out><![CDATA[2020-01-22 15:05:33 - [TEST_CASE][PASSED] - Test Cases/Day1/Script Mode: Test Cases/Day1/Script Mode
+
+2020-01-22 15:05:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-22 15:05:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-22 15:05:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-22 15:05:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-22 15:05:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"): Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' successfully
+
+2020-01-22 15:05:42 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials' successfully
+
+2020-01-22 15:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2020-01-22 15:05:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2020-01-22 15:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2020-01-22 15:05:42 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2020-01-22 15:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit", ["variable":""Login""])): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-01-22 15:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-22 15:04:25 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Day1/2020_01_20_TestCases2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2020-01-22 15:04:25 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Day1/2020_01_20_TestCases2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/th_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 2020_01_20_TestCases2.run(2020_01_20_TestCases2:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579685661707.run(TempTestSuite1579685661707.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/th_' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='January 2020'])[1]/following::th[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579503483890.run(Script1579503483890.groovy:30)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

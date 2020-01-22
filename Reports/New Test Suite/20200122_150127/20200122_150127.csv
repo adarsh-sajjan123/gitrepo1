@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Firefox 69.0,,,2020-01-22 15:01:42,2020-01-22 15:03:20,1m - 37.553s,FAILED
+,,,,,,,
+Test Cases/Day1/2020_01_20_OrHM_Manual,Firefox 69.0,,,2020-01-22 15:01:43,2020-01-22 15:02:06,22.788s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2020-01-22 15:01:43,2020-01-22 15:01:59,15.410s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"")",Firefox 69.0,,,2020-01-22 15:01:59,2020-01-22 15:02:03,4.145s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_txtUsername""), ""Admin"")",Firefox 69.0,,,2020-01-22 15:02:03,2020-01-22 15:02:03,0.223s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_txtPassword""), ""admin123"")",Firefox 69.0,,,2020-01-22 15:02:03,2020-01-22 15:02:03,0.050s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit"", [""variable"":""""Login""""]))",Firefox 69.0,,,2020-01-22 15:02:03,2020-01-22 15:02:06,2.363s,PASSED
+,,,,,,,
+Test Cases/Day1/2020_01_20_TestCases1,Firefox 69.0,2020_01_20_TestCases1,2020_01_20_TestCases1,2020-01-22 15:02:06,2020-01-22 15:02:21,15.044s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2020-01-22 15:02:06,2020-01-22 15:02:13,7.429s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 69.0,,,2020-01-22 15:02:13,2020-01-22 15:02:17,3.266s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 69.0,,,2020-01-22 15:02:17,2020-01-22 15:02:17,0.674s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 69.0,,,2020-01-22 15:02:17,2020-01-22 15:02:17,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 69.0,,,2020-01-22 15:02:17,2020-01-22 15:02:18,0.186s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 69.0,,,2020-01-22 15:02:18,2020-01-22 15:02:18,0.791s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Firefox 69.0,,,2020-01-22 15:02:18,2020-01-22 15:02:19,0.248s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar""))",Firefox 69.0,,,2020-01-22 15:02:19,2020-01-22 15:02:19,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_8""))",Firefox 69.0,,,2020-01-22 15:02:19,2020-01-22 15:02:19,0.262s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing"")",Firefox 69.0,,,2020-01-22 15:02:19,2020-01-22 15:02:19,0.049s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar""))",Firefox 69.0,,,2020-01-22 15:02:19,2020-01-22 15:02:20,0.327s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_31""))",Firefox 69.0,,,2020-01-22 15:02:20,2020-01-22 15:02:20,0.247s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 69.0,,,2020-01-22 15:02:20,2020-01-22 15:02:20,0.430s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Firefox 69.0,,,2020-01-22 15:02:20,2020-01-22 15:02:21,0.470s,PASSED
+,,,,,,,
+Test Cases/Day1/2020_01_20_TestCases2,Firefox 69.0,,,2020-01-22 15:02:21,2020-01-22 15:03:03,42.648s,FAILED
+"openBrowser("""")",Firefox 69.0,,,2020-01-22 15:02:21,2020-01-22 15:02:30,8.668s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 69.0,,,2020-01-22 15:02:30,2020-01-22 15:02:33,3.014s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 69.0,,,2020-01-22 15:02:33,2020-01-22 15:02:33,0.620s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 69.0,,,2020-01-22 15:02:33,2020-01-22 15:02:33,0.070s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 69.0,,,2020-01-22 15:02:33,2020-01-22 15:02:33,0.066s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Firefox 69.0,,,2020-01-22 15:02:33,2020-01-22 15:02:34,0.732s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Firefox 69.0,,,2020-01-22 15:02:34,2020-01-22 15:02:34,0.247s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/th_""))",Firefox 69.0,,,2020-01-22 15:02:34,2020-01-22 15:03:03,28.996s,FAILED
+,,,,,,,
+Test Cases/Day1/Script Mode,Firefox 69.0,,,2020-01-22 15:03:03,2020-01-22 15:03:17,13.593s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2020-01-22 15:03:04,2020-01-22 15:03:11,6.953s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"")",Firefox 69.0,,,2020-01-22 15:03:11,2020-01-22 15:03:14,3.980s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_txtUsername""), ""Admin"")",Firefox 69.0,,,2020-01-22 15:03:14,2020-01-22 15:03:15,0.074s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_txtPassword""), ""admin123"")",Firefox 69.0,,,2020-01-22 15:03:15,2020-01-22 15:03:15,0.071s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit"", [""variable"":""""Login""""]))",Firefox 69.0,,,2020-01-22 15:03:15,2020-01-22 15:03:17,2.276s,PASSED

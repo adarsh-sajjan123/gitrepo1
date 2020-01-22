@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C%%Automation Scripts%Training_Day1_web%Training_Day1_web.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-67756068033734942.groovy</name>
+			<type>1</type>
+			<location>C:/Users/slk/AppData/Local/Temp/Katalon/Web Services/kat-67756068033734942.groovy</location>
+		</link>
+		<link>
+			<name>kat-717300071318014861.groovy</name>
+			<type>1</type>
+			<location>C:/Users/slk/AppData/Local/Temp/Katalon/Web Services/kat-717300071318014861.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1579498206241</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1579498206264</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
